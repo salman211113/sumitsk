@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "ram",
+  name: "mwl bubs",
     version: "2.1.1",
   hasPermssion: 0,
   credits: "PRINCE RAJPUT", 
@@ -13,18 +13,12 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("ram") ||
-     react.includes("RAM") ||
-     react.includes("rAm") ||
-react.includes("Ram")) {
+  if(react.includes("xxx") ||
+     react.includes("bubs") ||
+     react.includes("XXX") ||
+react.includes("porn")) {
     var msg = {
-        body: `!!…जय..श्री..राम..!! ❤️❥❥═══༄ᶦᶰᵈ᭄🙏 
-        
-        ज़िन्दगी का क्या हैं, हर पल सताएगी,
-        ________________________
-        राम भक्तों का चुनौतियां कुछ ना कर पाएंगी  __________________________
-        
-       !!…जय..श्री..राम..!! ❤️❥❥═ᵈ᭄🙏👈`,attachment: fs.createReadStream(__dirname + `/noprefix/ram.mp4`)
+        body: `xxxx hot mwl🥵`,attachment: fs.createReadStream(__dirname + `/noprefix/xxx.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😍", event.messageID, (err) => {}, true)
