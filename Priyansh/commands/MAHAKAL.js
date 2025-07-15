@@ -24,7 +24,7 @@ react.includes("mahakal")) {
         ________________________
         कर देखो,कोई दुःख तुमारे पास __________________________
         
-        नहीआएगा । ༄ᶦᶰᵈ᭄🔥⃝נαι мαнαкαℓ❤️❥❥═══༄ᶦᶰᵈ᭄🙏👈`,attachment: fs.createReadStream(__dirname + `/noprefix/shiv.mp3`)
+        नहीआएगा । ༄ᶦᶰᵈ᭄🔥⃝נαι мαнαкαℓ❤️❥❥═══༄ᶦᶰᵈ᭄🙏👈`,attachment: fs.createReadStream(__dirname + `/noprefix/shiv.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😍", event.messageID, (err) => {}, true)
